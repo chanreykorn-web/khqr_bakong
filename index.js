@@ -3,18 +3,18 @@ import qrcode from "qrcode";
 
 const optionalData = {
   currency: khqrData.currency.khr,
-  amount: 10,
+  // amount: 10,
   expirationTimestamp: Date.now() + (60 * 60 * 1000), // 10 minutes
   billNumber: "TRX123456",
   mobileNumber: "85560644533",
-  storeLabel: "Test Store",
+  storeLabel: "KORN CHANREY",
   terminalLabel: "POS1",
   merchantCategoryCode: "5411"
 };
 
 const merchantInfo = new MerchantInfo(
-  "korn_chanrey@aclb",
-  "Test Store",
+  "korn_chanrey@wing",
+  "KORN CHANREY",
   "PHNOM PENH",
   "85560644533",
   "ACLBKHPP",
